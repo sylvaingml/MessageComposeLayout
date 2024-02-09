@@ -11,6 +11,9 @@
 		E4F200A72B758AEF00F5BA5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F200A62B758AEF00F5BA5A /* ContentView.swift */; };
 		E4F200A92B758AF200F5BA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F200A82B758AF200F5BA5A /* Assets.xcassets */; };
 		E4F200AC2B758AF200F5BA5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F200AB2B758AF200F5BA5A /* Preview Assets.xcassets */; };
+		E4F200B82B75FFBD00F5BA5A /* PhoneNumberBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F200B72B75FFBD00F5BA5A /* PhoneNumberBuilder.swift */; };
+		E4F200BA2B76005400F5BA5A /* ComposerHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F200B92B76005400F5BA5A /* ComposerHost.swift */; };
+		E4F200BC2B76026300F5BA5A /* ComposerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F200BB2B76026300F5BA5A /* ComposerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,13 @@
 		E4F200A62B758AEF00F5BA5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4F200A82B758AF200F5BA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F200AB2B758AF200F5BA5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4F200B22B75F83600F5BA5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4F200B42B75F9D500F5BA5A /* msg-composer__large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__large.png"; sourceTree = "<group>"; };
+		E4F200B52B75F9D600F5BA5A /* msg-composer__small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__small.png"; sourceTree = "<group>"; };
+		E4F200B62B75F9D600F5BA5A /* msg-composer__medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__medium.png"; sourceTree = "<group>"; };
+		E4F200B72B75FFBD00F5BA5A /* PhoneNumberBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberBuilder.swift; sourceTree = "<group>"; };
+		E4F200B92B76005400F5BA5A /* ComposerHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerHost.swift; sourceTree = "<group>"; };
+		E4F200BB2B76026300F5BA5A /* ComposerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,8 @@
 		E4F200982B758AEF00F5BA5A = {
 			isa = PBXGroup;
 			children = (
+				E4F200B22B75F83600F5BA5A /* README.md */,
+				E4F200B32B75F9B700F5BA5A /* images */,
 				E4F200A32B758AEF00F5BA5A /* MessageComposeLayout */,
 				E4F200A22B758AEF00F5BA5A /* Products */,
 			);
@@ -53,6 +65,9 @@
 			children = (
 				E4F200A42B758AEF00F5BA5A /* MessageComposeLayoutApp.swift */,
 				E4F200A62B758AEF00F5BA5A /* ContentView.swift */,
+				E4F200B92B76005400F5BA5A /* ComposerHost.swift */,
+				E4F200BB2B76026300F5BA5A /* ComposerDelegate.swift */,
+				E4F200B72B75FFBD00F5BA5A /* PhoneNumberBuilder.swift */,
 				E4F200A82B758AF200F5BA5A /* Assets.xcassets */,
 				E4F200AA2B758AF200F5BA5A /* Preview Content */,
 			);
@@ -65,6 +80,16 @@
 				E4F200AB2B758AF200F5BA5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4F200B32B75F9B700F5BA5A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E4F200B42B75F9D500F5BA5A /* msg-composer__large.png */,
+				E4F200B62B75F9D600F5BA5A /* msg-composer__medium.png */,
+				E4F200B52B75F9D600F5BA5A /* msg-composer__small.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F200BC2B76026300F5BA5A /* ComposerDelegate.swift in Sources */,
 				E4F200A72B758AEF00F5BA5A /* ContentView.swift in Sources */,
 				E4F200A52B758AEF00F5BA5A /* MessageComposeLayoutApp.swift in Sources */,
+				E4F200B82B75FFBD00F5BA5A /* PhoneNumberBuilder.swift in Sources */,
+				E4F200BA2B76005400F5BA5A /* ComposerHost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
