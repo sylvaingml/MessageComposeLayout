@@ -23,12 +23,14 @@
 		E4F200A82B758AF200F5BA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F200AB2B758AF200F5BA5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4F200B22B75F83600F5BA5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E4F200B42B75F9D500F5BA5A /* msg-composer__large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__large.png"; sourceTree = "<group>"; };
-		E4F200B52B75F9D600F5BA5A /* msg-composer__small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__small.png"; sourceTree = "<group>"; };
-		E4F200B62B75F9D600F5BA5A /* msg-composer__medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__medium.png"; sourceTree = "<group>"; };
 		E4F200B72B75FFBD00F5BA5A /* PhoneNumberBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberBuilder.swift; sourceTree = "<group>"; };
 		E4F200B92B76005400F5BA5A /* ComposerHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerHost.swift; sourceTree = "<group>"; };
 		E4F200BB2B76026300F5BA5A /* ComposerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerDelegate.swift; sourceTree = "<group>"; };
+		E4F200BD2B76E54200F5BA5A /* msg-composer__md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__md.png"; sourceTree = "<group>"; };
+		E4F200BE2B76E54200F5BA5A /* msg-composer__sm--300px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__sm--300px.png"; sourceTree = "<group>"; };
+		E4F200BF2B76E54200F5BA5A /* msg-composer__xl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__xl.png"; sourceTree = "<group>"; };
+		E4F200C02B76E54200F5BA5A /* msg-composer__sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__sm.png"; sourceTree = "<group>"; };
+		E4F200C12B76E54200F5BA5A /* msg-composer__xl--300px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg-composer__xl--300px.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +87,11 @@
 		E4F200B32B75F9B700F5BA5A /* images */ = {
 			isa = PBXGroup;
 			children = (
-				E4F200B42B75F9D500F5BA5A /* msg-composer__large.png */,
-				E4F200B62B75F9D600F5BA5A /* msg-composer__medium.png */,
-				E4F200B52B75F9D600F5BA5A /* msg-composer__small.png */,
+				E4F200BD2B76E54200F5BA5A /* msg-composer__md.png */,
+				E4F200BE2B76E54200F5BA5A /* msg-composer__sm--300px.png */,
+				E4F200C02B76E54200F5BA5A /* msg-composer__sm.png */,
+				E4F200C12B76E54200F5BA5A /* msg-composer__xl--300px.png */,
+				E4F200BF2B76E54200F5BA5A /* msg-composer__xl.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
